@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // MongoDB
 mongoose
-    .connect("mongodb+srv://praveen:praveen301102@cluster0.lcbjwat.mongodb.net/jobboard", {
+    .connect("#add your database link", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
